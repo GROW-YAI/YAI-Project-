@@ -38,21 +38,21 @@ const AboutUs = () => {
         </div>
 
         {/* RIGHT SIDE: TEXT CONTENT */}
-        <div className="md:w-1/2 mt-6 md:mt-0 md:pb-10 md:pr-30">
-          <h2 className="text-5xl font-extrabold text-gray-900 leading-tight">
+        <div className="md:w-1/2 mt-6 md:mt-0 md:pb-10 md:pr-30 text-left">
+          <h2 className="text-5xl font-extrabold text-gray-900 leading-tight text-left">
             Innovating Agriculture with Locally Made Solutions
           </h2>
-          <p className="text-gray-500 mt-5">
+          <p className="text-gray-500 mt-5 text-left">
             Many cashew farmers struggle with high labor costs and time-consuming manual seed detachment.
             Our <strong>Cashew Seeds Detaching Machine</strong> is designed to solve this problem, 
             improving efficiency and making farming more cost-effective.
           </p>
 
           {/* METRIC SECTION */}
-          <div className="mt-10 flex items-center">
+          <div className="mt-10 flex items-start">
             <h3 className="text-8xl font-bold text-cashew-green">25M+</h3>
-            <div className="ml-3">
-              <p className="font-semibold text-gray-800">Seeds Processed With Our Machine</p>
+            <div className="ml-3 self-start">
+              <p className="font-semibold text-gray-800 text-left">Seeds Processed With Our Machine</p>
             </div>
           </div>
 
